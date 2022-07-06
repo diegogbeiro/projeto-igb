@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'basketball';
+    src: url('./fontes/Basketball.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --cor1: #FF9c6f;
+    --cor2: #f87d45;
+    --cor3: #ee5814;
+    --cor4: #bb3f07;
+    --cor5: #932E00;
+    --corpadrao: #E65A31;
+
+    --fonttitulo: 'basketball';
+    --fontpadrao: 'Segoe UI';
+}
+
+body{
+    background-color: var(--corpadrao);
+}
