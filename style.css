@@ -21,8 +21,36 @@
     --fontpadrao: 'Segoe UI';
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: var(--corpadrao);
     font-family: var(--fontpadrao);
 }
 
+header{
+    margin: 32px 0px 0px 8px;
+    text-align: left;
+    
+}
+nav{
+    background-color: var(--corpadrao);
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.6em;
+   
+    
+}
+nav>a{
+    font-family: var(--fonttitulo);
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+}
+nav>a:hover{
+    font-weight: bolder;
+    color: lightgreen;
+}
