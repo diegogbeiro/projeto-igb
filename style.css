@@ -32,26 +32,111 @@ body{
 }
 
 header{
-    margin: 32px 0px 0px 8px;
-    text-align: left;
-    
+    margin: auto;
+    text-align: center;
+    min-width: 500px;
+    max-width: 1280px;    
 }
+header picture{
+    width: 100%;
+}
+
 nav{
     background-color: var(--corpadrao);
-    text-align: right;
-    margin: 0px 0px 0px 0px;
+    text-align: center;
+    margin-top: -32px;
     font-size: 1.6em;
     padding: 32px;
    
     
 }
-nav>a{
+nav>.navlink{
     font-family: var(--fonttitulo);
     color: white;
     text-decoration: none;
     padding-right: 8px;
 }
-nav>a:hover{
+nav>.navlink:hover{
     font-weight: bolder;
     color: lightgreen;
+}
+
+#mainquemsomos{
+    background-color: white;
+    margin: 12px;
+    padding: 20px;
+    min-width: 500px;
+    max-width: 1280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.32);
+}
+
+.articlequemsomos{
+    margin: auto;
+    padding: 12px;
+}
+.articlequemsomos > .h1articleqs{
+    font-family: var(--fonttitulo);
+    font-weight: normal;
+    font-size: 2em;
+    padding-bottom: 4px;
+    text-indent: 20px;
+}
+.articlequemsomos > .particleqs{
+    font-weight: normal;
+    padding: 8px;
+    text-indent: 20px;
+}
+.articlelink{
+    text-decoration: none;
+    color: var(--corpadrao);
+}
+.articlelink:hover{
+    font-size: bolder;
+    color: var(--cor5);
+}
+
+footer{
+    background-color: white;
+    margin: 12px;
+    padding: 24px;
+    min-width: 500px;
+    max-width: 1280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 32%);
+}
+footer >h2, h3{
+    font-family: var(--fonttitulo);
+    font-weight: normal;
+    padding-bottom: 16px;
+    text-indent: 20px;
+}
+footer >p{
+    font-weight: normal;
+    padding: 4px;
+    text-indent: 20px;
+}
+.footerlink{
+    color: var(--corpadrao);
+    text-decoration: none; 
+    font-weight: bold;   
+}
+.footerlink:hover{
+    font-weight: bolder;
+    color: var(--cor5);
+}
+.footerface{
+    padding: 4px;
+
+}
+.footermap{
+    padding: 4px;
+   
+}
+.footerface, .footerinsta{
+    text-decoration: none;  
+    
+}
+footer >h3{
+    padding: 16px;
 }
