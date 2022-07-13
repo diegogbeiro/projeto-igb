@@ -34,7 +34,7 @@ body{
 header{
     margin: auto;
     text-align: center;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 1280px;    
 }
 header picture{
@@ -62,11 +62,11 @@ nav>.navlink:hover{
     color: lightgreen;
 }
 
-#mainquemsomos, #mainhome{
+#mainquemsomos, #mainhome, #mainparticipe{
     background-color: white;
     margin: 12px;
     padding: 20px;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 1280px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.32);
@@ -101,11 +101,12 @@ footer{
     background-color: white;
     margin: 12px;
     padding: 20px;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 1280px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgb(0 0 0 / 32%);
     text-align: center;
+    
 }
 footer >h2, h3{
     font-family: var(--fonttitulo);
@@ -169,4 +170,11 @@ footer > a:hover{
 iframe{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.32);
+}
+
+fieldset{
+    border: 0px;
+}
+#imgparitice{
+    width: 100%;
 }
