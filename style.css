@@ -87,6 +87,7 @@ nav>.navlink:hover{
     font-weight: normal;
     padding: 8px;
     text-indent: 20px;
+    
 }
 .articlelink{
     text-decoration: none;
@@ -177,4 +178,71 @@ fieldset{
 }
 #imgparitice{
     width: 100%;
+}
+
+#titulo{
+    color: black;
+    font-family: var(--fonttitulo);
+    font-size: 3em;
+    padding: 8px;
+    text-indent: 20px;
+}
+#subtitulo{
+    color: black;
+    font-family: var(--fonttitulo);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 8px;
+    text-indent: 20px;
+
+}
+ select, button{
+    border-radius: 4px;
+    
+}
+.campo{
+    margin: 8px;
+    text-indent: 20px;
+
+    
+}
+.campo label{
+    color: black;
+    
+    
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    
+}
+.campo select option{
+    padding-right: 1em;
+    
+}
+
+.campo input:focus, .campo select:focus, .campo option:focus, .campo textarea:focus{
+    background: #e0e0f8;
+    
+}
+
+.botao{
+    font-family: var(--fonttitulo);
+    font-size: 1.2em;
+    background-color: var(--corpadrao);
+    border: 0;
+    color: #ffffff;
+    padding: 8px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);  
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+.botao:hover{
+    background-color: var(--cor5);
+    box-shadow: inset 2px 2px 2px rgba(0, 0,0,0.2);
+    text-shadow: none;
 }
